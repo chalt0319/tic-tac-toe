@@ -30,3 +30,12 @@
     transform: rotate(360deg);
   }
 }
+
+.one {
+  border: 5px solid blue;
+  width: 55px;
+  height: 55px;
+  position: relative;
+  bottom: 195px;
+  right: 260px;
+}
