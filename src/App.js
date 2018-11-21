@@ -10,10 +10,8 @@ class App extends Component {
       <div className="App">
         <header>
           Welcome to Tic Tac Toe!!
-          <div>
-            <Board />
-          </div>
         </header>
+        <Board />
       </div>
     );
   }

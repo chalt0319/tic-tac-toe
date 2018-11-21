@@ -5,21 +5,24 @@ class Square extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      image: "https://ubisafe.org/images/square-transparent-white-5.png"
+      clicked: false,
+      image: "https://i.stack.imgur.com/Vkq2a.png"
     }
   }
 
   handleClick = () => {
-    if (this.props.turn === "O") {
-      console.log("O's turn")
+    if ((this.props.turn === "O") && (this.state.clicked === false)) {
+      this.props.clickBox()
       this.setState({
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/LetterO.svg/1200px-LetterO.svg.png"
+        clicked: true,
+        image: "https://otranscribe.com/favicon.png"
       })
     }
-    else {
-      console.log("X's turn")
+    else if ((this.props.turn === "X") && (this.state.clicked === false)) {
+      this.props.clickBox()
       this.setState({
-        image: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Black_x.svg"
+        clicked: true,
+        image: "http://www.clker.com/cliparts/A/g/r/N/B/M/blue-cross-hi.png"
       })
     }
   }
