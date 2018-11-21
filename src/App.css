@@ -48,7 +48,7 @@ header {
 }
 
 .one {
-  border: 5px solid white;
+  padding: 5px;
   width: 80px;
   height: 80px;
   position: relative;
@@ -57,7 +57,7 @@ header {
 }
 
 .two {
-  border: 5px solid white;
+  padding: 5px;
   width: 80px;
   height: 80px;
   position: relative;
@@ -66,7 +66,7 @@ header {
 }
 
 .three {
-  border: 5px solid white;
+  padding: 5px;
   width: 80px;
   height: 80px;
   position: relative;
@@ -75,7 +75,7 @@ header {
 }
 
 .four {
-  border: 5px solid white;
+  padding: 5px;
   width: 80px;
   height: 80px;
   position: relative;
@@ -84,7 +84,7 @@ header {
 }
 
 .five {
-  border: 5px solid white;
+  padding: 5px;
   width: 80px;
   height: 80px;
   position: relative;
@@ -93,7 +93,7 @@ header {
 }
 
 .six {
-  border: 5px solid white;
+  padding: 5px;
   width: 80px;
   height: 80px;
   position: relative;
@@ -102,7 +102,7 @@ header {
 }
 
 .seven {
-  border: 5px solid white;
+  padding: 5px;
   width: 80px;
   height: 80px;
   position: relative;
@@ -111,7 +111,7 @@ header {
 }
 
 .eight {
-  border: 5px solid white;
+  padding: 5px;
   width: 80px;
   height: 80px;
   position: relative;
@@ -120,7 +120,7 @@ header {
 }
 
 .nine {
-  border: 5px solid white;
+  padding: 5px;
   width: 80px;
   height: 80px;
   position: relative;
