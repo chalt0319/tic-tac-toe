@@ -13,6 +13,7 @@ class Square extends Component {
   handleClick = () => {
     if ((this.props.turn === "O") && (this.state.clicked === false)) {
       this.props.clickBox()
+      this.props.updateBoard(this.props.character, this.props.turn)
       this.setState({
         clicked: true,
         image: "https://otranscribe.com/favicon.png"
@@ -20,19 +21,13 @@ class Square extends Component {
     }
     else if ((this.props.turn === "X") && (this.state.clicked === false)) {
       this.props.clickBox()
+      this.props.updateBoard(this.props.character, this.props.turn)
       this.setState({
         clicked: true,
         image: "http://www.clker.com/cliparts/A/g/r/N/B/M/blue-cross-hi.png"
       })
     }
   }
-
-  // whosTurn = (turn) => {
-  //   if (turn === "X") {
-  //     return <img onClick={this.handleClick} className={this.props.position} src={this.state.image} alt="sqaure" />
-  //   }
-  //
-  // }
 
   render() {
 
