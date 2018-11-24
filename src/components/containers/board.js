@@ -57,7 +57,9 @@ class Board extends Component {
     this.setState({
       winner: result
     })
-    this.tiedGame()
+    if (result === "") {
+      this.tiedGame()
+    }
   }
 
   tiedGame = () => {
@@ -69,7 +71,7 @@ class Board extends Component {
     })
     if (count === 9) {
       this.setState({
-        winner: "Tied Game!"
+        winner: "Tied Game!!"
       })
     }
   }
